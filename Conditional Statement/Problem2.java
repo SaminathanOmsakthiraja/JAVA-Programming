@@ -62,6 +62,8 @@ public class Problem2 {
             System.out.println("Decision: Approved");
         else if (status == 2)
             System.out.println("Decision: Needs Review");
+        else
+            System.out.println("Decision: Rejected");
         System.out.println("Maximum Loan Amount: $" + Max);
         sc.close();
     }
