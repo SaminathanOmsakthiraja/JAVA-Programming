@@ -21,7 +21,6 @@ public class Problem20 {
         String recommendedPlan = "";
         String features = "";
 
-        // 1. Base Storage Cost (Tiered)
         if (storageGB >= 10 && storageGB <= 100) {
             baseStorageCost = storageGB * 0.05;
         } 
@@ -38,7 +37,6 @@ public class Problem20 {
                             + ((storageGB - 2000) * 0.02);
         }
 
-        // 2. Per User Fee
         if (userCount <= 10) {
             perUserFee = userCount * 5;
         } 
@@ -49,7 +47,6 @@ public class Problem20 {
             perUserFee = userCount * 3;
         }
 
-        // 3. Backup Premium
         if (backupFrequency.equals("Daily")) {
             backupPremium = 0;
         } 
@@ -60,7 +57,6 @@ public class Problem20 {
             backupPremium = 50 + (1 * userCount);
         }
 
-        // 4. Support Fee
         if (supportTier.equals("Community")) {
             supportFee = 0;
         } 
@@ -74,11 +70,9 @@ public class Problem20 {
             supportFee = 200;
         }
 
-        // 5. Monthly & Annual
         monthly = baseStorageCost + perUserFee + backupPremium + supportFee;
         annual = monthly * 12 * 0.9;
 
-        // 6. Recommended Plan
         if (userCount == 1) {
             recommendedPlan = "Personal";
             features = "Basic storage, file sync";
@@ -96,7 +90,6 @@ public class Problem20 {
             features = "Advanced security, compliance tools, dedicated support, API access";
         }
 
-        // Output
         System.out.println("Storage Capacity: " + storageGB + " GB");
         System.out.println("User Count: " + userCount);
         System.out.println("Backup Frequency: " + backupFrequency);
