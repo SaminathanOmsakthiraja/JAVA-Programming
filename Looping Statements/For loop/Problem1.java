@@ -7,7 +7,6 @@ public class Problem1 {
 
         int n = sc.nextInt();
         double sum = 0;
-        double avg = 0;
         for(int i=0; i<n; i++){
             String name = sc.next();
             double base = sc.nextInt();
