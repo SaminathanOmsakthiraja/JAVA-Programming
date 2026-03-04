@@ -49,6 +49,7 @@ public class Problem3 {
         System.out.println("Critical Items: " + cri);
         System.out.println("Total Reorder Quantity: " + overrec);
 
+        
         sc.close();
     }
 }
