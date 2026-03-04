@@ -30,5 +30,7 @@ public class Problem6 {
         System.out.println("Failed Withdrawals: " + fail);
         System.out.println("Final Balance: $" + currbal);
         System.out.println("Total Withdrawn: $" + sum);
+
+        sc.close();
     }
 }

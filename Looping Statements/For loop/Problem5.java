@@ -42,5 +42,7 @@ public class Problem5 {
         System.out.println("Average Occulpancy Rate: " + avg + "%");
         System.out.println("Peak Occupancy Day: Day " + peak);
         System.out.println("Days at Full Capacity: " + full);
+
+        sc.close();
     }
 }

@@ -50,5 +50,7 @@ public class Problem4 {
         System.out.println("Total Sales: $" + sale);
         System.out.println("Total Commision: $" + comm);
         System.out.println("Top Performer: " + per);
+
+        sc.close();
     }
 }

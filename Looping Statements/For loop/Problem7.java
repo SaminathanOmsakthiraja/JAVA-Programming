@@ -45,5 +45,7 @@ public class Problem7 {
         System.out.println("Total Units Consumed: " + tot);
         System.out.printf("Total Revenue: $%.2f\n", rev);
         System.out.printf("Average Bill: $%.2f", avg);
+
+        sc.close();
     }
 }
