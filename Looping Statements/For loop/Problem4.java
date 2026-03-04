@@ -6,7 +6,6 @@ public class Problem4 {
 
         int n = sc.nextInt();
 
-        
         double sale = 0,comm = 0,max = 0;
         String per ="";
 
