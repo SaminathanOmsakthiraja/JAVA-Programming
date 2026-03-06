@@ -8,7 +8,6 @@ public class Problem7 {
         
         int n = sc.nextInt();
         
-
         for(int i=0; i<n; i++){
             String consumerID = sc.next();
             int unitscon = sc.nextInt();
