@@ -16,7 +16,6 @@ public class Problem14 {
             sum += Math.pow(dp2 % 10,count);
             dp2 /= 10;
         }
-
         if (sum == n)
             System.out.println(n + " is an Armstrong number");
         else
