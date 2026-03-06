@@ -11,10 +11,10 @@ public class Problem6 {
         System.out.println("Balance: " + balance);
         boolean done = false;
 
-        while (!done) {
+        do{
             System.out.println("Enter withdrawal amount: ");
             withdraw = sc.nextInt();
-            
+
             if (withdraw < balance){
                 balance -= withdraw;
                 done = true;
@@ -23,7 +23,7 @@ public class Problem6 {
             else {
                 System.out.println("Insufficient funds! Try again.");
             }
-        }
+        }while (!done);
 
         sc.close();
     }
