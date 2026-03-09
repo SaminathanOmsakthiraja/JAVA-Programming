@@ -9,6 +9,7 @@ public class Problem5 {
 
         int cells = mon_start - 1 + days;
 
+        System.out.println("Calendra Grid: ");
         System.out.println("Mon Tue Wed Thu Fri Sat Sun ");
 
         int day=1;
