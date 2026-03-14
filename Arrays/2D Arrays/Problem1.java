@@ -47,7 +47,6 @@ public class Problem1 {
 
             System.out.printf("Subject %d : %.2f\n",(j+1), avg);
         }
-
         sc.close();
     }
 }
