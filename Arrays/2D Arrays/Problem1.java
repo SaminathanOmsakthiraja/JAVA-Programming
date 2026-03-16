@@ -29,7 +29,7 @@ public class Problem1 {
 
             double avg = (double) sum / subjects;
 
-            System.out.printf("Student %.2f\n", avg);
+            System.out.printf("Student %d : %d\n",(i+1),(int) avg*100);
         }
 
         System.out.println();
@@ -45,7 +45,7 @@ public class Problem1 {
 
             double avg = (double) sum / students;
 
-            System.out.printf("Subject %d : %.2f\n",(j+1), avg);
+            System.out.printf("Subject %d : %d\n",(j+1), (int) avg*100);
         }
         sc.close();
     }
