@@ -35,7 +35,7 @@ public class Problem4 {
         for (int i = 0; i < row ; i++) {
             System.out.println("Product " + (i+1) + " : " + eachsum[i]);
         }
-        System.out.println("\nBest-Selling Product: Product " + product + " with " + max + " units");
+        System.out.println("\n Best-Selling Product: Product " + product + " with " + max + " units");
         
 
         sc.close();
