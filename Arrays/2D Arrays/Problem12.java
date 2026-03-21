@@ -13,7 +13,7 @@ public class Problem12 {
         for (int i = 0; i < 4; i++){
             int s = 0;
             for (int j = 0; j < 7; j++){
-                arr[i][j] = sc.nextInt();
+                arr[i][j] = sc.nextInt() * 10;
                 s += arr[i][j];
             }
             sum[i] = s;
