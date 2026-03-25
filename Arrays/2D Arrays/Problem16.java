@@ -25,7 +25,7 @@ public class Problem16 {
             }
         }
 
-        System.out.println("Treasure Map:");
+        System.out.println("Treasure Map: ");
         for (int i = 0; i < 10; i++){
             if (usedRow[i]){
                 for (int j = 0; j <= maxCol[i]; j++){
