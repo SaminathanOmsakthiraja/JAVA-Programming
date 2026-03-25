@@ -62,7 +62,6 @@ public class Problem16 {
                 }
             }
         }
-
         sc.close();
     }
 }
