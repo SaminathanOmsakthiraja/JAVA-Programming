@@ -14,7 +14,6 @@ public class Problem20 {
                 arr[i][j] = sc.nextInt();
             }
         }
-
         System.out.println("Matrix:");
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
